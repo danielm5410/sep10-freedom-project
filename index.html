@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,6 +9,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="style.css" rel="stylesheet" type="text/css" />
         <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
         <style>
             /* CSS */
             
@@ -17,230 +21,309 @@
     </head>
     <body>
         <!-- HTML -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #F5DEB3;">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+           <img src="img/mwheat.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          <a class="navbar-brand" href="#">Farming</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link active" aria-current="page" href="#cool">Context</a>
+              <a class="nav-link active" href="#ab">Current software and hardware</a>
+              <a class="nav-link active" href="#de">Current farming tech and the future</a>
+              <a class="nav-link active" href="#tl">Timeline</a>
             </div>
           </div>
         </div>
       </nav>
 
-      <div class="container-fluid">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/b.gif" class="d-block w-100" alt="..." width="1vw" height="500">
-            </div>
-            <div class="carousel-item">
-              <img src="img/d.jpg" class="d-block w-100" alt="..." width="1vw" height="500">
-            </div>
-            <div class="carousel-item">
-              <img src="img/f.jpg" class="d-block w-100" alt="..." width="1vw" height="500">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <img src="img/b.gif" class="d-block w-100" alt="..." height="800px">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 id="cup">The Farming of the PAST</h1>
       </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="img/d.jpg" class="d-block w-100" alt="..." height="800px">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 id="cup">The Farming of the PRESENT</h1>
+      </div>
+    </div>
+    
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="img/f.jpg" class="d-block w-100" alt="..." height="800px">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 id="cup">The Farming of the FUTURE</h1>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="container-fluid gap-3 pa bground" id="cool">
 <div class="card mb-3">
   <div class="row g-0">
     <div class="col-md-4">
       <img src="img/d.jpg" class="img-fluid rounded-start" alt="...">
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 bground2">
       <div class="card-body">
-        <h4 class="card-title">What is farming?</h4>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h2 class="card-title">What is farming?</h2>
+        <p class="card-text">Agriculture is the practice of cultivating plants and livestock. Agriculture was the key development in the rise of sedentary human civilization, whereby farming of domesticated species created food surpluses that enabled people to live in cities. The history of agriculture began thousands of years ago. </p>
       </div>
     </div>
   </div>
 </div>
-<div class="container">
-  <div class="row align-items-start">
-    <div class="col">
-<div class="card" style="width: 18rem;">
-  <img src="img/b.gif" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4" id="ab">
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/b.gif" class="card-img-top cardh" alt="...">
+      <div class="card-body bground2">
+        <h5 class="card-title">The Farming of the PAST</h5>
+        <p class="card-text">Back then in the neolithic era, there were blades made out  of flint and obsidian that helped the farmers cut his food, reap cereals, cut hides and more. Larger tools of polished stone helped them till the earth, made axes to help cut down trees , chisels for wood, bone and stone working.</p>
+      </div>
+    </div>
   </div>
-  </div>
-</div
-    
-<div class="row align-items-center">
-    <div class="col">
-<div class="card" style="width: 18rem;">
-  <img src="img/d.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+<div class="col">
+    <div class="card h-100">
+      <img src="img/d.jpg" class="card-img-top cardh" alt="..." >
+      <div class="card-body bground2">
+        <h5 class="card-title">The Farming of the PRESENT</h5>
+        <p class="card-text">Today's agriculture routinely uses sophisticated technologies such as robots, temperature and moisture sensors, aerial images, and GPS technology. These advanced devices and precision agriculture and robotic systems allow businesses to be more profitable, efficient, safer, and more environmentally friendly.
+no longer depend on applying water, fertilizers, and pesticides uniformly across entire fields. Instead, farmers will use the minimum quantities required and target very specific areas.
+Future agriculture will use sophisticated technologies such as robots, temperature and moisture sensors, aerial images, and GPS technology. These advanced devices and precision agriculture and robotic systems will allow farms to be more profitable, efficient, safe, and environmentally friendly.
+</p>
+      </div>
+    </div>
+</div>
+  
+<div class="col">
+    <div class="card h-100">
+      <img src="img/f.jpg" class="card-img-top cardh" alt="...">
+      <div class="card-body bground2">
+        <h5 class="card-title">The Farming of the FUTURE</h5>
+        <p class="card-text">I have an idea where you can fully control your farm with your phone or your computer. Like you can harvest all your crops on your phone and water them automatically. You can also sell your crops and manage all the bugs and pests on your phone too. Something like an automated seed planter and harvester. You can also  farm the most efficiently because in the future, the population will increase and the amount of farming will have to increase to feed everyone. You can do this while making a good margin profits and being able to be cheap and affordable for everyone in every social class.</p>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="card" style="width: 18rem;">
-  <img src="img/f.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+</div> 
+
+<div class="container-fluid bground3" id="de">
+ <center> <h1 class="font2"> Farming of the PAST</h1> </center>
+  
+<div class="container-fluid mb-50 pa fground2">
+<div class="accordion accordion-flush bg-dark " id="accordionFlushExample aspace">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Context
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"> About 10,000 years ago, humans began to domesticate plants and animals. By staying in one place, families and larger groups were able to build communities instead of a nomadic hunter-gatherer lifestyle that is dependent on foraging and hunting for survival.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+       Neolithic crops
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"> This was called the neolithic era. The farmers started farming emmer wheat, einkorn wheat and barley. These were the first few crops to be ever harvested. These early farmers also domesticated lentils, chickpeas, peas and flax. Neolithic farmers selected for crops that harvested easily. Wild wheat, for instance, falls to the ground and shatters when it is ripe. Early humans bred for wheat that stayed on the stem for easier harvesting. Around the same time that farmers were beginning to sow wheat in the Fertile Crescent, people in Asia started to grow rice and millet.
+In Mexico, squash cultivation began about 10,000 years ago, while corn like crops emerged around 9,000 years ago.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Neolithic tools
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"> Scrapers are one of the original stone tools, found everywhere where people settled, long before the Neolithic Age began. Scrapers were used both to butcher animals, and then to remove meat from the hides. The hides could then be cured as leather. A scraper is a flat piece of stone with one longer slightly curved edge. The edge is sharpened by banging off flakes with another rock. While a scraper can be used for cutting into an animal, a longer, thinner blade can be inserted deeper into a carcass, or run along a bone, and works better for the fruits and vegetables of a settled agricultural life. Blades are more difficult to make than scrapers; when banging it down to a thin piece of rock, it is easy to snap the piece in two. Arrows and spearheads are a more sophisticated shape than simple scrapers and blades. Not only is the tip more delicate, but to shape the end of the head to slip into the shaft, and also provide protrusions that could be used to tie the point in place, required a new degree of precision and care. The polished stone ax is considered one of the most important developments of the Neolithic era. Once the ax was shaped through flaking, another stone was used to grind it smooth. Axes make the clearing of land much simpler, allowing the spread of agriculture. Axes also make effective weapons, and it is thought that many Neolithic axes were meant to be used on enemies rather than trees. The need for self-protection led to a more centralized village life within high walls. Chisels were made by attaching a sharp piece of stone to the end of a sturdy stick. Hammers were made by rounding a rock, and either drilling a hole through it or creating a notch around the outside that could be used when securing the head to a handle by rope or sinew. Hammers were mostly used with chisels in woodworking, though the difference between a hammer and a war club is really only in the use. The adze is a woodworking tool. It is a flat blade attached to a handle, somewhat like an ax, except that the blade is turned horizontally, somewhat like a hoe. When it strikes a piece of wood it gouges out a chip. It was and is still used in cultures that make dugout canoes, as it is one of the fastest ways to hollow out a log. A larger adze also makes an effective tool for digging, removing roots and generally preparing land for planting.</div>
+    </div>
   </div>
 </div>
+</div>
 
-<div class="container-fluid mb-50">
+  <div id="myEmbeddedScene">
+    <a-scene embedded>
+      <iframe allowfullscreen="yes"  allowvr="yes"></iframe>
+      <a-box position="0 1 -3"  material="src:https://cdn.glitch.global/57c8c532-2d83-42d1-accb-5c6b88b49ec7/neotool.jpg?v=1651699313012"  height="5" width="0.5"></a-box>
+       <a-cone material="src:https://cdn.glitch.global/57c8c532-2d83-42d1-accb-5c6b88b49ec7/sonteimg.jpg?v=1651700453965" rotation="0 0 90"radius-bottom="0.5" radius-top="0" position="-2 2.6 -3" height="4" width="10"></a-cone>
+       <a-assets>
+    <img id="sky" src="https://cdn.glitch.global/57c8c532-2d83-42d1-accb-5c6b88b49ec7/6280080_orig.jpg?v=1651699133385">
+  </a-assets>
+      <a-sky src="#sky"></a-sky>
+    </a-scene>
+  </div>
+
+<center><h1 class="font2">Farming of the PRESENT</h1></center>
+
+<div class="container-fluid mb-50 pa">
 <div class="accordion accordion-flush bg-dark" id="accordionFlushExample aspace">
   <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Accordion Item #1
+    <h2 class="accordion-header" id="flush-headingfour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+        Context
       </button>
     </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Today's agriculture routinely uses sophisticated technologies such as robots, temperature and moisture sensors, aerial images, and GPS technology. These advanced devices and precision agriculture and robotic systems allow businesses to be more profitable, efficient, safer, and more environmentally friendly.
+no longer depend on applying water, fertilizers, and pesticides uniformly across entire fields. Instead, farmers will use the minimum quantities required and target very specific areas.
+Future agriculture will use sophisticated technologies such as robots, temperature and moisture sensors, aerial images, and GPS technology. These advanced devices and precision agriculture and robotic systems will allow farms to be more profitable, efficient, safe, and environmentally friendly.
+</div>
     </div>
   </div>
   <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Accordion Item #2
+    <h2 class="accordion-header" id="flush-headingfive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
+      Current farming software
       </button>
     </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">  One of the top software programs is named Agrivi. Agrivi helps our farmers plan, monitor and analyze all activities on the farm easily. Agrivi helps farmers to manage all field activities, finance, inventory, workforce and get insight into overall farming performance with a singe click.  Agrivi also has  automated pest and disease detection to alert farmers to protect crops timely. It also helps with tillage, planting, crop protection, fertilization, irrigation, harvesting, and all other activities are very easy and manageable with a few clicks. Another one is granular. Granular helps farmers with more productive farming and allows farm owners and managers to look over  all aspects of operations even while traveling. They can even schedule and assign tasks to their workers and allow field and office hands to work collaboratively. Granular also assists companies in keeping their stakeholders up-to-date.
+</div>
     </div>
   </div>
   <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Accordion Item #3
+    <h2 class="accordion-header" id="flush-headingsix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapsesix">
+        Current farming hardware
       </button>
     </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    <div id="flush-collapsesix" class="accordion-collapse collapse" aria-labelledby="flush-headingsix" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">When it comes to farming, there are many farming hardware product but here are some of the best to maximize efficiency and to maximize profits and food. There's this one hardware that helps you milk cows efficiently. It also monitors everything from milk output and number of milking per day to the number of steps that a cow takes in a given day. A usual human schedule milks the cow about twice per day, as opposed to the machine milking as often as five or six times a day. There's this other hardware called the Hybrid planter. The electric multi-hybrid planter is intended to help farmers enjoy the best of both worlds by giving them the ability to automatically change the seeds they plant. It also uses a single seed tube in order to eliminate gaps when transitioning from one seed type to another.</div>
     </div>
   </div>
 </div>
 </div>
 
-  <div id="myEmbeddedScene">
+  <div id="myEmbeddedScene2">
     <a-scene embedded>
-      <!-- ... -->
-    </a-scene>
-  </div>
-
-
-<div class="accordion accordion-flush bg-dark" id="accordionFlushExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-    </div>
-  </div>
-</div>
-
-  <div id="myEmbeddedScene">
-    <a-scene embedded>
-      <!-- ... -->
+      <iframe allowfullscreen="yes"  allowvr="yes"></iframe>
+         <a-cylinder color="white" height="4" radius="1.5" position=" 0 0 -3"></a-cylinder>
+      <a-cylinder color="white" height="4" radius="0.5" position=" 0 -4 -3"></a-cylinder>
+      <a-cylinder color="white" height="4" radius="1.5" position=" 6 0 -3"></a-cylinder>
+      <a-cylinder color="white" height="4" radius="0.5" position=" 6 -4 -3"></a-cylinder>
+      <a-cylinder color="#C0C0C0" height="4" radius="6" position=" 3 -8 -3"></a-cylinder>
+      <a-cylinder color="white" height="8" radius="0.5" position=" 9 -8 -2" rotation="90 90"></a-cylinder>
+      <a-cylinder color="white" height="8" radius="0.5" position=" 9 -8 -5" rotation="90 90"></a-cylinder>
+      <a-box color="white" height="4" width="5" depth="6" position="14 -8 -3.5"></a-box>
+      <a-sphere color="green" height="1" radius="0.7" position="16.5 -8 -3.5"></a-sphere>
+       <a-assets>
+    <img id="sky1" src="img/cow.jpg">
+  </a-assets>
+      <a-sky src="#sky1"></a-sky>
     </a-scene>
   </div>
   
-<div class="accordion accordion-flush bg-dark" id="accordionFlushExample">
+
+<center><h1 class="font2">Farming of the FUTURE</h1></center>
+
+<div class="container-fluid mb-50 pa">
+<div class="accordion accordion-flush bg-dark" id="accordionFlushExample aspace">
   <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Accordion Item #1
+    <h2 class="accordion-header" id="flush-headingseven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseseven" aria-expanded="false" aria-controls="flush-collapseseven">
+        Future Agriculture
       </button>
     </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    <div id="flush-collapseseven" class="accordion-collapse collapse" aria-labelledby="flush-headingseven" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"> In the future there should be gene-edited crops, and it will cause a much wider variety of crops being grown and more efficiently. This new technology allows scientists to precisely edit genes in DNA with the goal of creating a better crop variety. This is good because in the future, as the population grows more and more, the need of agriculture would be doubled. By 2050, the global population is expected to hit 10 billion people. This means that, to feed everyone, it will take 56 percent more food than is produced in the world today, according to the United Nations Environment Programme. </div>
     </div>
   </div>
+  
   <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Accordion Item #2
+    <h2 class="accordion-header" id="flush-headingeight">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseeight" aria-expanded="false" aria-controls="flush-collapseeight">
+        Future farming tech
       </button>
     </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    <div id="flush-collapseeight" class="accordion-collapse collapse" aria-labelledby="flush-headingeight" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"> Crops would no longer depend on applying water, fertilizers, and pesticides uniformly across entire fields. Instead, farmers will use the minimum quantities required and target very specific areas. The report further states that, farms and agricultural operations will have to be run very differently, primarily due to advancements in technology such as sensors, devices, machines, and information technology. Future agriculture will use sophisticated technologies such as robots, temperature and moisture sensors, aerial images, and GPS technology. These advanced devices and precision agriculture and robotic systems will allow farms to be more profitable, efficient, safe, and environmentally friendly.</div>
     </div>
   </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Accordion Item #3
+  
+ <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingnine">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsenine" aria-expanded="false" aria-controls="flush-collapsenine">
+        Future farming idea
       </button>
     </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    <div id="flush-collapsenine" class="accordion-collapse collapse" aria-labelledby="flush-headingnine" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">I have an idea where you can fully control your farm with your phone or your computer. Like you can harvest all your crops on your phone and water them automatically. You can also sell your crops and manage all the bugs and pests on your phone too. Something like an automated seed planter and harvester. You will have to farm the most efficiently in the future like, farming upwards instead of outwards, because the population will increase and the amount of farming will have to increase to feed everyone. You can do this while making a good margin profits and being able to be cheap and affordable for everyone in every social class.</div>
     </div>
   </div>
 </div>
-
-  <div id="myEmbeddedScene">
+</div>
+  
+  <div id="myEmbeddedScene3" >
     <a-scene embedded>
-      <!-- ... -->
+      <iframe allowfullscreen="yes"  allowvr="yes"></iframe>
+         <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-sky color="#ECECEC">
     </a-scene>
   </div>
-  
-  
-<label for="customRange3" class="form-label"><h1>Time Line</h1></label>
-<input type="range" class="form-range" min="0" max="5" step="4" id="customRange3">
+
+<div class="tground">
+<div class="container ">                      
+    <div class="row text-center justify-content-center mb-5">
+        <div class="col-xl-6 col-lg-8">
+            <h2 class="font-weight-bold">Timeline of farming technology</h2>
+            <p class="text-muted">Farming has come a long way from what it used to be, from the neolithic era, to the future, here is how farming advanced overtime. </p>
+        </div>
+    </div>
+
+<div class="container ">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <div id="content">
+                        <ul class="timeline">
+                            <li class="event">
+                                <h3>Neolithic Era</h3>
+                                <p> In the neolithic era, people used tools like scrapers, blades, axes, etc. for survival. They use these tools to cut food and to kill animals.</p>
+                            </li>
+                            <li class="event">
+                                <h3>Current farming software</h3>
+                                <p>Today's agriculture routinely uses sophisticated technologies such as robots, temperature and moisture sensors, aerial images, and GPS technology. These advanced devices and precision agriculture and robotic systems allow businesses to be more profitable, efficient, safer, and more environmentally friendly.</p>
+                            </li>
+                            <li class="event">
+                                <h3>Current farming hardware</h3>
+                                <p> There are many new farming hardwares that help farmers maximize efficiency and profit like The electric multi-hybrid planter. It is intended to help farmers enjoy the best of both worlds by giving them the ability to automatically change the seeds they plant. It also uses a single seed tube in order to eliminate gaps when transitioning from one seed type to another.</p>
+                            </li>
+                            <li class="event">
+                                <h3>Future farming technology</h3>
+                                <p>I have an idea where you can fully control your farm with your phone or your computer. Like you can harvest all your crops on your phone and water them automatically. You can also sell your crops and manage all the bugs and pests on your phone too. Something like an automated seed planter and harvester. You will have to farm the most efficiently in the future like, farming upwards instead of outwards, because the population will increase and the amount of farming will have to increase to feed everyone. You can do this while making a good margin profits and being able to be cheap and affordable for everyone in every social class.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 
 
 
 
 
 
-
-        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="script.js"></script>
         <script>
@@ -248,5 +331,7 @@
             
             
         </script>
+        
+        
     </body>
 </html>
