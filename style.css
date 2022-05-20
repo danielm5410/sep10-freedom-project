@@ -184,6 +184,10 @@
     font-size:20px;
 }
 
+.flsize{
+    font-size:18px;
+}
+
 #navt {
     font-size:25px;
     font-weight:bold;
@@ -192,4 +196,8 @@
 .font3 {
       font-family: "poppins";
       color:#808080;
+}
+
+.cfont {
+    
 }
