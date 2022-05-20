@@ -34,6 +34,12 @@
 .font2 {
   color:#89CFF0;
   font-family: "poppins";
+  margin:20px;
+}
+
+#font2t {
+      color:#89CFF0;
+  font-family: "poppins";
 }
 
 .accordion-button {
@@ -199,5 +205,18 @@
 }
 
 .cfont {
-    
+    font-size:20px;
+}
+
+.afont {
+    font-size:17px;
+    margin:5px;
+}
+
+.bota {
+    margin-bottom: 30px;
+}
+
+.timb {
+    font-size:20px;
 }
